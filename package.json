@@ -1,0 +1,27 @@
+{
+  "name": "llm-agent-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@langchain/google-genai": "^2.1.13",
+    "@langchain/langgraph": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "langchain": "^1.2.15",
+    "undici": "^6.23.0",
+    "weaviate-ts-client": "^2.2.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
